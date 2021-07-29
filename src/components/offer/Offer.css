@@ -1,7 +1,11 @@
 .offer_container {
-  margin-top: 70px;
   padding: 110px 0;
   background-color: #f7f7f7;
+}
+
+.offer_container_reverse {
+  background-color: #fff;
+
 }
 
 .offer_body {
@@ -13,9 +17,12 @@
   flex-direction: row;
 }
 
+.offer_body_reverse {
+  flex-direction: row-reverse;
+}
+
 .offer_caption {
   width: 40%;
-  margin-right: 10%;
 }
 
 .offer_body_head {
@@ -32,7 +39,11 @@
 
 .offer_icon_container {
   width: 50%;
-  text-align: center;
+  text-align: end;
+}
+
+.offer_icon_reverse {
+  text-align: start;
 }
 
 .offer_icon_container img {
@@ -46,10 +57,13 @@
     flex-direction: column;
   }
 
+  .offer_body_reverse {
+    flex-direction: column;
+  }
+
   .offer_caption {
     text-align: center;
     width: 100%;
-    margin-right: 0;
     margin-bottom: 90px;
   }
 
