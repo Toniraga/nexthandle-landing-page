@@ -1,11 +1,10 @@
 .offer_container {
   padding: 110px 0;
-  background-color: #f7f7f7;
+  background-color: #fff;
 }
 
 .offer_container_reverse {
-  background-color: #fff;
-
+  background-color: #f7f7f7;
 }
 
 .offer_body {

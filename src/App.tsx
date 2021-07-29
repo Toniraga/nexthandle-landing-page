@@ -17,6 +17,7 @@ function App() {
       </div>
       <CallToAcion />
       <Offer
+        reverse
         offerHeadtop='Buy certified'
         offerHead='pre-owned devices'
         offerBody='New devices are great but pocket and planet-friendly devices are greater.'
@@ -24,25 +25,24 @@ function App() {
       />
 
       <Offer
-        reverse
-        offerHeadtop='Buy certified'
-        offerHead='pre-owned devices'
-        offerBody='New devices are great but pocket and planet-friendly devices are greater.'
+        offerHeadtop='Sell your old'
+        offerHead='devices for cash'
+        offerBody='Who needs dust when your old devices can rake in cool cash.'
         icon={tablet}
       />
 
       <Offer
-        offerHeadtop='Buy certified'
-        offerHead='pre-owned devices'
-        offerBody='New devices are great but pocket and planet-friendly devices are greater.'
+        reverse
+        offerHeadtop='Swap your'
+        offerHead='current devices'
+        offerBody='With a single click, you can swap your current device(s) for new or pre-owned devices, fast and easy.'
         icon={swapDevices}
       />
 
       <Offer
-        reverse
-        offerHeadtop='Buy certified'
-        offerHead='pre-owned devices'
-        offerBody='New devices are great but pocket and planet-friendly devices are greater.'
+        offerHeadtop='Repair your'
+        offerHead='faulty devices'
+        offerBody='You break it, we fix it... Don’t worry, be happy.'
         icon={repair}
       />
 
