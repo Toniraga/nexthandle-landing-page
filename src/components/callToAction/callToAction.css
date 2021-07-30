@@ -11,28 +11,50 @@
 
 .action_text {
   padding-top: 60px;
-  width: 50%;
-  padding-right: 10%;
+  /* width: 50%;
+  padding-right: 10%; */
 }
 
 .action_text_head {
-  font-size: 55px;
-  font-weight: 700;
-  padding-bottom: 20px;
+  font-family: 'GibsonBold';
+  /* font-size: 55px;
+  font-weight: 700; */
+  /* padding-bottom: 20px; */
+  color: #25313c;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 79px;
+  margin: 40px 0px;
 }
 
 .action_body {
-  width: 80%;
-  font-size: 17px;
+  /* width: 80%;
+  font-size: 17px; */
+  position: static;
+  width: 582px;
+  height: 90px;
+  left: 0px;
+  top: 277px;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+
+  /* Secondary text */
+
+  color: #6d7d8b;
 }
 
 .action_phone {
   text-align: center;
 }
 
-.action_phone img {
+/* .action_phone img {
   height: 440px;
-}
+} */
 
 .action_base {
   display: flex;
@@ -47,6 +69,7 @@
 .action_base_box p {
   opacity: 0.7;
   font-size: 17px;
+  color: #6d7d8b;
 }
 
 .action_base_icon {
@@ -70,13 +93,35 @@
   }
 
   .action_text_head {
+    /* font-size: 40px;
+    font-weight: 700; */
+    font-weight: 600;
     font-size: 40px;
-    font-weight: 700;
+    line-height: 130%;
+    /* or 52px */
+
+    text-align: center;
+
+    /* primary black text NH */
+
+    color: #25313c;
   }
 
   .action_body {
-    width: 80%;
+    /* width: 80%; */
     margin: 0 auto;
+    position: static;
+    width: 311.64px;
+    height: 114px;
+    left: 4.42px;
+    top: 186px;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+
+    /* Secondary text */
+
+    color: #6d7d8b;
   }
 
   .action_phone {

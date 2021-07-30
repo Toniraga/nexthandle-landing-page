@@ -1,13 +1,35 @@
+@font-face {
+  font-family: 'GibsonBold';
+  src: local('GibsonBold'),
+    url('./fonts/Gibson/Gibson-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'GibsonRegular';
+  src: local('GibsonRegular'),
+    url('./fonts/Gibson/Gibson-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'MulishRegular';
+  src: local('MulishRegular'),
+    url('./fonts/Mulish/Mulish-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
+  font-family: 'MulishRegular';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */

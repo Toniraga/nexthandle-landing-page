@@ -25,15 +25,33 @@
 }
 
 .offer_body_head {
-  font-size: 45px;
-  font-weight: 700;
+  font-family: 'GibsonBold';
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 60px;
+  color: #25313c;
+  /* font-size: 45px; */
+  /* font-weight: 700; */
   padding-bottom: 20px;
 }
 
 .offer_body_text {
+  font-size: 30px;
+  line-height: 38px;
+  color: #6d7d8b;
+  position: static;
+  width: 477px;
+  height: 114px;
+  left: 0px;
+  top: 170px;
+
+  /* font-family: Mulish; */
+  font-style: normal;
+  font-weight: normal;
   opacity: 0.6;
-  font-size: 17px;
-  width: 50%;
+  /* margin: 50px 0px; */
+  /* font-size: 17px; */
+  /* width: 50%; */
 }
 
 .offer_icon_container {
@@ -48,7 +66,6 @@
 .offer_icon_container img {
   height: 360px;
 }
-
 
 @media (max-width: 600px) {
   .offer_body {

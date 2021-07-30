@@ -7,7 +7,7 @@
 .logo {
   margin: 0 auto;
   padding: 20px 0;
-  width: 87%; 
+  width: 87%;
 }
 
 .logo img {
@@ -20,19 +20,25 @@
 }
 
 .subscribe_prompt_text {
+  font-family: 'GibsonBold';
   font-size: 35px;
   font-weight: 700;
-  width: 50%;
+  /* width: 50%; */
+  position: static;
+  width: 888.39px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
   margin: 0 auto;
-  color: #6D7D8B;
   text-align: center;
+  color: #6d7d8b;
+  line-height: 50px;
 }
 
 .subscribe_prompt p {
   display: flex;
   justify-content: center;
 }
-
 
 @media (max-width: 600px) {
   .logo {
@@ -45,6 +51,7 @@
   .subscribe_prompt_text {
     font-size: 30px;
     width: 100%;
+    margin: 50px 0px;
   }
 
   .subscribe_prompt_input {
