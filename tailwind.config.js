@@ -8,6 +8,7 @@ module.exports = {
         500: '500px'
 			},
 			colors: {
+				'next-black': '#25313C',
 				'next-grey': '#6D7D8B',
 				'next-blue': '#1ACC8D',
 			},

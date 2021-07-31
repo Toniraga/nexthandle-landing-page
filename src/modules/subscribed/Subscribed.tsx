@@ -26,7 +26,7 @@ const Subscribed: React.FC = () => {
         <div className="text-center mt-7">
           <p
             style={{ fontFamily: 'GibsonBold' }}
-            className="text-3xl md:text-5xl mb-8 font-semibold">
+            className="text-3xl text-next-black md:text-5xl mb-8 font-semibold">
             Great job signing up.
           </p>
           <p
