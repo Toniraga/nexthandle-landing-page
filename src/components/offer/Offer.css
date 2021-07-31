@@ -56,7 +56,8 @@
 
 .offer_icon_container {
   width: 50%;
-  text-align: end;
+  display: flex;
+  justify-content: center;
 }
 
 .offer_icon_reverse {

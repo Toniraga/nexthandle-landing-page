@@ -1,19 +1,17 @@
-import logo from '../../assets/logo.svg';
-import CallToAction from '../callToAction/CallToAction';
-import Offer from '../offer/Offer';
+import CallToAction from '../../components/callToAction/CallToAction';
+import Offer from '../../components/offer/Offer';
 import laptop from '../../assets/laptop.svg';
 import tablet from '../../assets/tablet.svg';
 import swapDevices from '../../assets/swapDevices.svg';
 import repair from '../../assets/repair.svg';
-import EmailInput from '../emailInput/EmailInput';
-import Footer from '../footer';
+import EmailInput from '../../components/emailInput/EmailInput';
+import Footer from '../../components/footer';
+import LogoHeader from '../../components/logoHeader';
 
 export default function Services() {
   return (
     <div className="app">
-      <div className="logo">
-        <img src={logo} alt="logo" />
-      </div>
+      <LogoHeader />
       <CallToAction />
       <Offer
         reverse
@@ -46,13 +44,13 @@ export default function Services() {
       />
 
       <div className="subscribe_prompt">
-        <p className="subscribe_prompt_text">
+        <div className="subscribe_prompt_text">
           A better way to stay connected with trendy tech without breaking the
           bank.
-        </p>
-        <p>
+        </div>
+        <div className="flex justify-center">
           <EmailInput containerClass="subscribe_prompt_input" />
-        </p>
+        </div>
       </div>
       <Footer />
     </div>

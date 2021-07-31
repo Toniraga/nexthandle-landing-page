@@ -1,0 +1,24 @@
+.next-btn {
+  height: 40px;
+  width: 100%;
+  border-radius: 8px;
+  outline: 0;
+  font-size: 14px;
+  padding: 0 10px;
+  color: white;
+  border: none;
+  background-color: #1ACC8D;
+}
+
+.next-btn:hover {
+  background-color: #0a6445;
+  opacity: 0.7;
+}
+
+@media (max-width: 600px) {
+  .next-btn {
+    height: 50px;
+    width: 100%;
+    font-size: 16px;
+  }
+}

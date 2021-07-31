@@ -4,16 +4,6 @@
   box-sizing: border-box;
 }
 
-.logo {
-  margin: 0 auto;
-  padding: 20px 0;
-  width: 87%;
-}
-
-.logo img {
-  height: 80px;
-}
-
 .subscribe_prompt {
   width: 87%;
   margin: 0 auto;
@@ -41,13 +31,6 @@
 }
 
 @media (max-width: 600px) {
-  .logo {
-    text-align: center;
-  }
-  .logo img {
-    height: 40px;
-  }
-
   .subscribe_prompt_text {
     font-size: 30px;
     width: 100%;

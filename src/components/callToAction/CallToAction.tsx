@@ -14,13 +14,13 @@ const CallToAcion: React.FC = () => {
           <div className="action_text_head">
             The marketplace <br /> for pre-owned <br /> high-end devices
           </div>
-          <p className="action_body">
+          <div className="action_body">
             <span style={{ opacity: '0.6' }}>
               NextHandle offers you the most secure and pocket-friendly way to
               buy, sell, or swap high-end pre-owned devices
-            </span>{' '}
+            </span>
             <span style={{ opacity: '0.8' }}>only from certified vendors.</span>
-          </p>
+          </div>
           <EmailInput />
         </div>
         <div className="action_phone">
@@ -32,7 +32,7 @@ const CallToAcion: React.FC = () => {
           <img src={prize} alt="prize" className="action_base_icon" />
           <p>
             Nigeria’s No 1 online market-leader for certified used or pre-owned
-            devices{' '}
+            devices
           </p>
         </div>
         <div className="action_base_box">

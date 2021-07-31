@@ -1,9 +1,10 @@
 import React from 'react';
-import Services from './components/services/Services';
-
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-
 import './App.css';
+
+import Services from './modules/services/Services';
+import Subscribed from './modules/subscribed/Subscribed';
+
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={Services} />
-          <Route exact path="/subscribed" component={() => <div>hello</div>} />
+          <Route exact path="/subscribed" component={Subscribed} />
         </Switch>
       </Router>
     </React.StrictMode>

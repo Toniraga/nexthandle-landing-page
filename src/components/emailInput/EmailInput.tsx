@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
+import Button from '../uiComponents/button';
+import Input from '../uiComponents/input';
 import './EmailInput.css';
 
 const EmailInput: React.FC<{ containerClass?: string; }> = ({ containerClass }) => {
@@ -12,23 +14,25 @@ const EmailInput: React.FC<{ containerClass?: string; }> = ({ containerClass }) 
   const onSubmit = (e: any) => {
     e.preventDefault()
     history.push('/subscribed')
-    console.log('yeyeo')
   }
   
   
   return (
     <form onSubmit={onSubmit} className={`action_input ${containerClass}`}>
-      <input
-        placeholder="Your email"
-        value={email}
-        onChange={onInputChange}
-      />
-      <button
+      <p className="action_input_container">
+        <Input
+          placeholder="Your email"
+          value={email}
+          onChange={onInputChange}
+        />
+      </p>
+      <p className="action_button_container">
+        <Button
         type='submit'
         disabled={!email.trim()}
-      >
-        Get early access
-      </button>
+        text="Get early access"
+      />
+      </p>
     </form>
   )
 }
